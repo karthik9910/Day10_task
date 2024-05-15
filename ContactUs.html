@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <style>
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #f6f1f1;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+
+        }
+
+        div {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f6f1f1;
+            border-radius: 19px;
+            box-shadow: 0 0 10px rgba(81, 80, 80, 0.1);
+        }
+
+        body {
+            font-family: arial, sans-serif;
+        }
+
+        label {
+            font-weight: bold;
+            font-size: large;
+        }
+    </style>
+
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form type="Contact Us" id="ContactForm" autocomplete="on" validate>
+            <label for="name" id="name" name="name">Name:</label><br>
+            <input id="name" type="text" name="name" /><br><br>
+            <label id="email" name="email" for="email">Email:</label><br>
+            <input id="email" type="email" name="email" /><br><br>
+            <label id="phoneNo" name="phoneNo" for="phoneNo">Phone
+                No:</label><br>
+            <input id="Phone" type="tel" name="Phone" /><br><br>
+            <label id="subject" for="subject">Subject:</label><br>
+            <input id="subject" type="text" name="subject"><br><br>
+            <label id="msg" for="msg">Message:</label><br>
+            <textarea id="Message" type="text" name="Message" rows="5"></textarea><br><br>
+            <input type="submit" value="Submit"></input>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
